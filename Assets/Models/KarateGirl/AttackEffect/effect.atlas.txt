@@ -1,0 +1,272 @@
+
+effect.png
+size: 959,899
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/hadoken/1
+  rotate: true
+  xy: 798, 212
+  size: 52, 137
+  orig: 52, 137
+  offset: 0, 0
+  index: -1
+effect/hadoken/10
+  rotate: false
+  xy: 301, 10
+  size: 111, 175
+  orig: 111, 175
+  offset: 0, 0
+  index: -1
+effect/hadoken/11
+  rotate: false
+  xy: 186, 2
+  size: 113, 183
+  orig: 113, 183
+  offset: 0, 0
+  index: -1
+effect/hadoken/12
+  rotate: false
+  xy: 2, 397
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+effect/hadoken/13
+  rotate: false
+  xy: 777, 94
+  size: 93, 66
+  orig: 93, 66
+  offset: 0, 0
+  index: -1
+effect/hadoken/13 (2)
+  rotate: false
+  xy: 504, 737
+  size: 229, 160
+  orig: 229, 160
+  offset: 0, 0
+  index: -1
+effect/hadoken/14
+  rotate: true
+  xy: 371, 299
+  size: 96, 175
+  orig: 96, 175
+  offset: 0, 0
+  index: -1
+effect/hadoken/15
+  rotate: false
+  xy: 751, 10
+  size: 85, 82
+  orig: 85, 82
+  offset: 0, 0
+  index: -1
+effect/hadoken/16
+  rotate: true
+  xy: 544, 14
+  size: 194, 52
+  orig: 194, 52
+  offset: 0, 0
+  index: -1
+effect/hadoken/17
+  rotate: false
+  xy: 804, 400
+  size: 111, 175
+  orig: 111, 175
+  offset: 0, 0
+  index: -1
+effect/hadoken/18
+  rotate: true
+  xy: 548, 314
+  size: 92, 114
+  orig: 92, 114
+  offset: 0, 0
+  index: -1
+effect/hadoken/19
+  rotate: true
+  xy: 598, 33
+  size: 175, 46
+  orig: 175, 46
+  offset: 0, 0
+  index: -1
+effect/hadoken/2
+  rotate: true
+  xy: 646, 45
+  size: 68, 103
+  orig: 68, 103
+  offset: 0, 0
+  index: -1
+effect/hadoken/20
+  rotate: true
+  xy: 872, 94
+  size: 66, 69
+  orig: 66, 69
+  offset: 0, 0
+  index: -1
+effect/hadoken/21
+  rotate: true
+  xy: 367, 210
+  size: 87, 191
+  orig: 87, 191
+  offset: 0, 0
+  index: -1
+effect/hadoken/22 (2)
+  rotate: false
+  xy: 2, 331
+  size: 367, 64
+  orig: 367, 64
+  offset: 0, 0
+  index: -1
+effect/hadoken/23
+  rotate: true
+  xy: 909, 589
+  size: 149, 43
+  orig: 149, 43
+  offset: 0, 0
+  index: -1
+effect/hadoken/24
+  rotate: true
+  xy: 414, 49
+  size: 159, 128
+  orig: 159, 128
+  offset: 0, 0
+  index: -1
+effect/hadoken/25
+  rotate: false
+  xy: 504, 408
+  size: 167, 143
+  orig: 167, 143
+  offset: 0, 0
+  index: -1
+effect/hadoken/26
+  rotate: true
+  xy: 773, 577
+  size: 161, 134
+  orig: 161, 134
+  offset: 0, 0
+  index: -1
+effect/hadoken/27
+  rotate: false
+  xy: 802, 266
+  size: 154, 132
+  orig: 154, 132
+  offset: 0, 0
+  index: -1
+effect/hadoken/28
+  rotate: false
+  xy: 662, 175
+  size: 134, 131
+  orig: 134, 131
+  offset: 0, 0
+  index: -1
+effect/hadoken/29
+  rotate: true
+  xy: 664, 308
+  size: 94, 136
+  orig: 94, 136
+  offset: 0, 0
+  index: -1
+effect/hadoken/3
+  rotate: true
+  xy: 673, 404
+  size: 137, 129
+  orig: 137, 129
+  offset: 0, 0
+  index: -1
+effect/hadoken/4
+  rotate: true
+  xy: 680, 543
+  size: 192, 91
+  orig: 192, 91
+  offset: 0, 0
+  index: -1
+effect/hadoken/5
+  rotate: false
+  xy: 186, 187
+  size: 179, 142
+  orig: 179, 142
+  offset: 0, 0
+  index: -1
+effect/hadoken/6
+  rotate: true
+  xy: 735, 740
+  size: 157, 191
+  orig: 157, 191
+  offset: 0, 0
+  index: -1
+effect/hadoken/7
+  rotate: false
+  xy: 2, 144
+  size: 182, 185
+  orig: 182, 185
+  offset: 0, 0
+  index: -1
+effect/hadoken/8
+  rotate: false
+  xy: 504, 553
+  size: 174, 182
+  orig: 174, 182
+  offset: 0, 0
+  index: -1
+effect/hadoken/9
+  rotate: true
+  xy: 2, 3
+  size: 139, 179
+  orig: 139, 179
+  offset: 0, 0
+  index: -1
+effect/nomal/1
+  rotate: true
+  xy: 928, 808
+  size: 89, 21
+  orig: 89, 21
+  offset: 0, 0
+  index: -1
+effect/nomal/10
+  rotate: true
+  xy: 601, 220
+  size: 92, 59
+  orig: 92, 59
+  offset: 0, 0
+  index: -1
+effect/nomal/12
+  rotate: false
+  xy: 646, 115
+  size: 129, 58
+  orig: 129, 58
+  offset: 0, 0
+  index: -1
+effect/nomal/13
+  rotate: false
+  xy: 798, 162
+  size: 104, 48
+  orig: 104, 48
+  offset: 0, 0
+  index: -1
+effect/nomal/16
+  rotate: false
+  xy: 414, 2
+  size: 101, 45
+  orig: 101, 45
+  offset: 0, 0
+  index: -1
+effect/nomal/19
+  rotate: true
+  xy: 917, 500
+  size: 87, 40
+  orig: 87, 40
+  offset: 0, 0
+  index: -1
+effect/nomal/4
+  rotate: true
+  xy: 560, 210
+  size: 102, 39
+  orig: 102, 39
+  offset: 0, 0
+  index: -1
+effect/nomal/7
+  rotate: true
+  xy: 838, 17
+  size: 75, 55
+  orig: 75, 55
+  offset: 0, 0
+  index: -1
