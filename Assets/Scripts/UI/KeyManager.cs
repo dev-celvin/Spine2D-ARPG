@@ -38,6 +38,13 @@ public class KeyManager : MonoSingleton<KeyManager> {
 
 
 	}
+    void Update()
+    {
+        for (int i = 0; i < statuNum; i++)
+        {
+            keyMessage[(KeyCode)i] = false;
+        }
+    }
 
 	public void ReceiveMoveDrag(KeyCode key,bool value)
 	{
@@ -55,6 +62,16 @@ public class KeyManager : MonoSingleton<KeyManager> {
 		}
 
 	}
+    float movedis = 0f;
+    public void ReceiveMoveDis(float dis)
+    {
+        movedis = dis;
+    }
+    public float GetMoveDis()
+    {
+        return movedis;
+    }
+
 	public bool GetKeyMessage(KeyCode key)
 	{
 		return keyMessage[key];
