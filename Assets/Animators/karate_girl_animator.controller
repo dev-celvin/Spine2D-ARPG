@@ -1400,43 +1400,43 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: attackAction
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: jumpState
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: moveRate
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: normalState
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 1
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: shift
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: hitted
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -1552,7 +1552,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: moveRate
-    m_EventTreshold: .100000001
+    m_EventTreshold: .00999999978
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 110225456}
   m_Solo: 0
@@ -1807,7 +1807,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: moveRate
-    m_EventTreshold: .100000001
+    m_EventTreshold: .00999999978
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 110219238}
   m_Solo: 0
@@ -4243,10 +4243,10 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions:
     data:
-      first: {fileID: 110799392}
+      first: {fileID: 110755518}
       second: []
     data:
-      first: {fileID: 110755518}
+      first: {fileID: 110775812}
       second: []
     data:
       first: {fileID: 110746346}
@@ -4255,7 +4255,7 @@ AnimatorStateMachine:
       first: {fileID: 110714246}
       second: []
     data:
-      first: {fileID: 110775812}
+      first: {fileID: 110799392}
       second: []
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: -228, y: 24, z: 0}
@@ -4369,13 +4369,13 @@ AnimatorStateMachine:
       first: {fileID: 0}
       second: []
     data:
+      first: {fileID: 110775812}
+      second: []
+    data:
       first: {fileID: 110746346}
       second: []
     data:
       first: {fileID: 110714246}
-      second: []
-    data:
-      first: {fileID: 110775812}
       second: []
     data:
       first: {fileID: 110782116}

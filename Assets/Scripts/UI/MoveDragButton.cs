@@ -50,8 +50,9 @@ public class MoveDragButton : MonoBehaviour {
 			KeyManager.instance.ReceiveMoveDrag(KeyManager.KeyCode.Run_Right,false);
 		}
 	}
-	void GetButtonStatu()
-	{
+    void Update()
+    {
+        KeyManager.instance.ReceiveMoveDis(button.transform.localPosition.x / draglimit);
+    }
 
-	}
 }

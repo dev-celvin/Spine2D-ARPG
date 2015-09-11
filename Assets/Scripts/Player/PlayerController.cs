@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		//得到水平方向上的控制
-		float moveRate,horizontal = Input.GetAxis("Horizontal");
+	    float moveRate, horizontal = KeyManager.instance.GetMoveDis();
 		current_stateInfo = m_animator.GetCurrentAnimatorStateInfo(0);
         if (current_stateInfo.IsName("Damage") || m_animator.GetBool("hitted")) {
             if(current_stateInfo.IsName("Damage")) m_animator.SetBool("hitted", false);
@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour {
                 }
                 if (!attack_combo)
                 {
-                    if (Input.GetButtonDown("Fire2"))
+                    if (KeyManager.instance.GetKeyMessage(KeyManager.KeyCode.Combo))
                     {
                         normalAttack_index = 0;
                         m_animator.SetInteger("attackAction", 0);
@@ -75,7 +75,7 @@ public class PlayerController : MonoBehaviour {
                         skill_index = (skill_index + 1) % skillActions.Count;
                         attack_combo = true;
                     }
-                    else if (Input.GetButtonDown("Fire1"))
+                    else if (KeyManager.instance.GetKeyMessage(KeyManager.KeyCode.Attack))
                     {
                         m_animator.SetInteger("skillAction", 0);
                         m_animator.SetInteger("attackAction", (int)attackActions[normalAttack_index]);
@@ -100,18 +100,18 @@ public class PlayerController : MonoBehaviour {
                 }
                 else if (current_stateInfo.IsTag("NextToAttack"))
                 {
-                    if (Input.GetButtonDown("Fire2"))
+                    if (KeyManager.instance.GetKeyMessage(KeyManager.KeyCode.Combo))
                     {
                         m_animator.SetInteger("skillAction", (int)skillActions[skill_index]);
                         skill_index = (skill_index + 1) % skillActions.Count;
                     }
-                    else if (Input.GetButtonDown("Fire1"))
+                    else if (KeyManager.instance.GetKeyMessage(KeyManager.KeyCode.Attack))
                     {
                         normalAttack_index = 0;
                         m_animator.SetInteger("attackAction", (int)attackActions[normalAttack_index]);
                         normalAttack_index = (normalAttack_index + 1) % attackActions.Count;
                     }
-                    else if (Input.GetButtonDown("Jump"))
+                    else if (KeyManager.instance.GetKeyMessage(KeyManager.KeyCode.Evade))
                     {
                         m_animator.SetBool("shift", true);
                     }
